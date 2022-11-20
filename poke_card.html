@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokecard</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Righteous&display=swap"
+        rel="stylesheet">
+    <!--icon navegador-->
+    <link rel="icon" type="" href="assets/img/pokebola2.png">
+    <!--Arquivos css-->
+    <link rel="stylesheet" href="assets/css/cardpoke.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1><span>Poke</span>card</h1>
+    </header>
+    <main id="container">
+
+
+    </main>
+    <footer id="footer">
+        <nav id="nav">
+            <a href="/index.html">Pokedex</a>
+            
+           <div>
+            <label for="pesquisa">Number</label>
+            <input type="number" id="pesquisa">
+            <button onclick="buscarPokemon()" id="btn">
+                <img src="assets/img/lupa (1).png" alt="lupa">
+            </button>
+           </div>
+
+        </nav>
+    </footer>
+
+    <!--Arquivo JS-->
+    <script src="assets/js/pokemon-model.js"></script>
+    <script src="assets/js/poke-api.js"></script>
+    <script src="assets/js/poke-card.js"></script>
+</body>
+
+</html>
